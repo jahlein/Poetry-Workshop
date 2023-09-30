@@ -1,0 +1,156 @@
+html, body {
+		font-size: 105%;
+		color: rgb(247, 248, 255);
+		background-image: url("img/pie.jpg");
+        background-size: cover;
+	}
+
+	h1{
+		font-size: 300%;
+		letter-spacing: 0.1em;
+		font-weight: 800;
+		font-family: Arial, Helvetica, sans-serif;
+		text-align: center;
+		text-shadow: 2px 2px 2px #000000;
+	}
+	p{
+		text-align: center;
+	}
+
+	li {
+		text-align: center;
+		list-style-image: url("img/icon-plus.png");
+		list-style-position: inside;
+		line-height: 1.6em;
+	}
+
+	table {
+		border-spacing: 0px;
+		font-family: serif;
+	}
+	.center{
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	th, td {
+		padding: 5px 30px 5px 10px;
+		border-spacing: 0px;
+		font-size: 100%;
+		margin: 0px;
+		color: #080808;
+		background-color:  rgb(0, 56, 70);
+		
+	}
+			
+	th, td {
+		text-align: left;
+		color: rgb(247, 248, 255);
+		background-color:rgb(0, 56, 70);
+		border-top: 1px solid #ececec;
+		border-bottom: 1px solid #ececec;
+		border-right: 1px solid #ececec;
+		border-left: 1px solid #ececec;
+	}
+	
+	tr.head th {
+		color:rgb(247, 248, 255);
+		background-color: rgb(0, 56, 70);
+		border-bottom: 2px solid rgb#ececec;
+		border-right: 1px solid #ececec;
+		border-top: 1px solid #ececec;
+		text-align: center;
+		text-shadow: 1px 1px 2px #000000;
+		letter-spacing: 0.15em;
+	}
+	
+	td {
+		text-shadow: 1px 1px 1px #000000;
+		color:rgb(247, 248, 255);
+		background-color: rgb(0, 56, 70);
+	}
+
+	tr.even td, tr.even th {
+		background-color:  rgb(0, 56, 70);
+	}
+
+	tr.head th:first-child {
+		-webkit-border-top-left-radius: 5px;
+		-moz-border-radius-topleft: 5px;
+		border-top-left-radius: 5px;
+	}
+
+	tr.head th:last-child {
+		-webkit-border-top-right-radius: 5px;
+		-moz-border-radius-topright: 5px;
+		border-top-right-radius: 5px;
+	}
+
+
+	fieldset {
+		width: 310px;
+        margin-left: auto;
+		margin-top: 20px;
+		border: 3px solid #ececec;
+		background-color: rgb(0, 56, 70);
+		line-height: 1.6em;
+		margin-right: auto;
+	}
+
+	legend {
+		text-align: left;
+		font-style: italic;
+		color:rgb(247, 248, 255);
+		text-shadow: -1px -1px 2px #000000;
+	}
+	label{
+		text-align: left;
+		font-style: italic;
+		color: #ffffff;
+		text-shadow: -1px -1px 2px #000000;
+	}
+
+	input[type="text"] {
+		width: 120px;
+		border: 1px solid #ececec;
+		padding: 2px;
+		outline: none;
+	}
+
+	input[type="text"]:focus,
+	input[type="text"]:hover {
+		background-color: #95c5a4;
+		border: 1px solid #ececec;
+		color: #000000;
+		text-shadow: #ffffff;
+	}
+
+	input[type="submit"] {
+		border: 1px solid #ececec;
+		background-color: #397c5f;
+		color: rgb(247, 248, 255);
+		border-radius: 5px;
+		padding: 5px;
+		margin-top: 10px;
+	}
+
+	input[type="submit"]:hover {
+		border: 1px solid #ececec;
+		background-color: #022e24;
+		color:rgb(247, 248, 255);
+		cursor: pointer;
+	
+	}
+
+	.title {
+		float: left;
+		width: 160px;
+		clear: left;
+		color: rgb(247, 248, 255);
+	}
+	.submit {
+		margin-left: 35%;
+		width: 310px;
+		text-align: right;
+		color: rgb(247, 248, 255);
+	}
